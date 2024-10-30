@@ -1,0 +1,31 @@
+/* General TOC Styles */
+.loc-toc {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+}
+
+.loc-toc ol {
+    list-style: auto;
+    padding-left: 25;
+}
+
+.loc-toc li {
+    margin: 5px 0;
+    padding:0 15px 0 5px;
+}
+
+
+.loc-toc ol {
+    display: grid;
+    grid-template-columns: 0.8fr 0.8fr;
+    gap: 0px;
+    padding: 0 0 0 30px;
+    margin: 0;
+}
+
+.two-column-list li {
+    border: 1px solid #ccc; /* Optional: Add border to list items */
+    text-align: center; /* Optional: Center align the text */
+}

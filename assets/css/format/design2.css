@@ -1,0 +1,32 @@
+/* General TOC Styles */
+.loc-toc {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+}
+
+.loc-toc ol {
+    list-style: none;
+    padding-left: 25;
+}
+
+.loc-toc li {
+    margin: 5px 0;
+}
+
+/* Design 2 */
+.loc-toc.design2 {
+    border-color: #ff6f61;
+    background: #fff5f3;
+}
+
+.loc-toc.design2 a {
+    color: #ff6f61;
+    text-decoration: none;
+    font-weight: 450;
+}
+
+.loc-toc.design2 a:hover {
+    text-decoration: underline;
+}

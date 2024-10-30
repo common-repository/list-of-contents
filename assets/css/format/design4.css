@@ -1,0 +1,37 @@
+/* General TOC Styles */
+.loc-toc {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+}
+
+.loc-toc ol {
+    list-style: none;
+    padding-left: 25;
+}
+
+.loc-toc li {
+    margin: 5px 0;
+}
+
+/* Design 4: Two Columns */
+.loc-toc.design4 {
+    border-color: #6c757d;
+    background: #f8f9fa;
+}
+
+.loc-toc.design4 ol {
+    column-count: 2;
+    column-gap: 20px;
+}
+
+.loc-toc.design4 a {
+    color: #5d5c5c;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.loc-toc.design4 a:hover {
+    text-decoration: underline;
+}
